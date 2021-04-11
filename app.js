@@ -1,3 +1,12 @@
-var userName = prompt("Give Me UserName")
-var welcomeMessage = "welcome to vanilla JS this script element(tag) is working  " + userName;
-alert(welcomeMessage);
+var btnTranslate = document.querySelector("#btn-translate");
+var txtInput = document.querySelector("#txt-input");
+
+console.log(txtInput);
+
+function clickHandler(){
+    console.log("clicked!!")
+    console.log("input :", txtInput.value)
+};
+
+btnTranslate.addEventListener("click", clickHandler) 
+
