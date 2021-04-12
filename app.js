@@ -21,7 +21,7 @@ function clickHandler() {
     fetch(getTranslationURL(inputText))
         .then(response => response.json())
         .then(json => {
-            var translatedText = "Country : " + json['sys']['country'] + " | tempreature : " + json['main']['temp'] + " | weather : " +  json['weather'][0]['description'] + " | longitude : " + json['coord']['lon'] + " | latitude : " + json['coord']['lat'] + " | wind speed : " + json['wind']['speed'] + " | Wind direction, degrees : " + json['wind']['deg'] + "  | Wind gust : " + json['wind']['gust'];
+            var translatedText = "Country : " + json['sys']['country'] + " | tempreature : " + json['main']['temp'] + " | weather : " +  json['weather'][0]['description'] + " | longitude : " + json['coord']['lon'] + " | latitude : " + json['coord']['lat'] + " | wind speed : " + json['wind']['speed'] + " | Wind direction, degrees : " + json['wind']['deg'];
             outputDiv.innerText = translatedText;
             console.log()})
     };
