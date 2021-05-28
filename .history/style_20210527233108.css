@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #f38a35a8;
+    --black: #333333;
+    --width-break:800px
+}
+
+body {
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    color: #333333;
+    background: #00c3ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+nav {
+    background-color: var(--primary);
+    text-align: center;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+}
+
+
+#output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    /* border: 1px solid var(--black); */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
