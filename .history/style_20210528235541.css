@@ -45,7 +45,7 @@ textarea {
     min-height: 5vh;
     font-size: large;
     font-family: inherit;
-    background-color: #ffffffc9;
+    background-color: #ffffff7a;
     border:none;
     border-radius:20px;
     text-align: center;
@@ -65,11 +65,10 @@ textarea:hover {
 }
 
 button {
-    /* background-color: var(--primary); */
-    background-image: linear-gradient(to right, #9865f6 0%, #e585fd 51%, #cd65f6 100%);
+    background-color: var(--primary);
     border: none;
     margin: 8rem 0rem;
-    color:white;
+    font-family: 'Kalam', cursive;
     font-size: large;
     cursor: pointer;
     height: 50px;
@@ -78,7 +77,6 @@ button {
     border-bottom-right-radius:20px;
     margin:auto;
     display:block;
-    font-size:1.5rem;
     
 }
 
@@ -96,10 +94,8 @@ footer {
     bottom: 0;
     width: 100%;
     padding: 1rem;
-    background-color: #ccccccb2;
+    background-color: var(--primary);
     text-align: center;
-    color: #46157E;
-    font-size:1.3rem;
 }
 
 footer p {
@@ -121,12 +117,14 @@ footer p {
 
 .nav > .nav-header > .nav-title {
   display: inline-block;
-  font-size: 30px;
+  font-size: 22px;
   color: #fff;
+  /* padding: 10px 10px 10px 10px; */
+  padding-bottom: 1rem;
 }
 
 .nav > .nav-btn {
-  display: inline-block;
+  display: none;
 }
 
 .nav > .nav-links {
@@ -199,30 +197,41 @@ footer p {
   }
 }
 
+.container {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: 0 auto;
+  min-height: 100vh; */
+}
 .btn {
   flex: 1 1 auto;
   margin: 10px;
-  padding: 15px;
+  padding: 30px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
- text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-  /* box-shadow: 0 0 20px #eee; */
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
   border-radius: 10px;
-  cursor: pointer;
-  font-size: 1.5rem;
  }
 
+/* Demo Stuff End -> */
 
+/* <- Magic Stuff Start */
 
 .btn:hover {
   background-position: right center; /* change the direction of the change here */
 }
 
 .btn-1 {
-  background-image: linear-gradient(to right, #9865f6 0%, #e585fd 51%, #cd65f6 100%);
+  background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
 }
 
 
+/* Magic Stuff End -> */

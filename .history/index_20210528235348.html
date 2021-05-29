@@ -28,10 +28,29 @@
         </div>
 
         <div class="nav-links">
-            <div class="container">
-                <a href="https://weather-projection.netlify.app/" class="btn btn-1"
-                    style="text-decoration:none">Login</a>
-            </div>
+            <a href="https://weatherapplicationse.netlify.app/">Login</a>
+            
+         .btn-grad {background-image: linear-gradient(to right, #42275a 0%, #734b6d  51%, #42275a  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+
         </div>
     </div>
 
@@ -45,9 +64,7 @@
             Check
         </button>
 
-        <div>
-            <h2>Your current weather data is :</h2>
-        </div>
+        <div>Your current weather is :</div>
 
         <div id="output" class="t-area">
 
@@ -56,9 +73,8 @@
     </main>
 
     <footer>
-        <div style="font-size: x-large;">About</div>
-        <p>This application is created uising open weather api | Users have to login to use the integrated version of
-            this app where they can get more information.</p>
+        <div style="font-size: x-large;">about</div>
+        <p>This application is created uising open weather api</p>
     </footer>
 
 

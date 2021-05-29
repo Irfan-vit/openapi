@@ -45,7 +45,7 @@ textarea {
     min-height: 5vh;
     font-size: large;
     font-family: inherit;
-    background-color: #ffffffc9;
+    background-color: #ffffff7a;
     border:none;
     border-radius:20px;
     text-align: center;
@@ -65,11 +65,10 @@ textarea:hover {
 }
 
 button {
-    /* background-color: var(--primary); */
-    background-image: linear-gradient(to right, #9865f6 0%, #e585fd 51%, #cd65f6 100%);
+    background-color: var(--primary);
     border: none;
     margin: 8rem 0rem;
-    color:white;
+    font-family: 'Kalam', cursive;
     font-size: large;
     cursor: pointer;
     height: 50px;
@@ -78,7 +77,6 @@ button {
     border-bottom-right-radius:20px;
     margin:auto;
     display:block;
-    font-size:1.5rem;
     
 }
 
@@ -96,10 +94,8 @@ footer {
     bottom: 0;
     width: 100%;
     padding: 1rem;
-    background-color: #ccccccb2;
+    background-color: var(--primary);
     text-align: center;
-    color: #46157E;
-    font-size:1.3rem;
 }
 
 footer p {
@@ -120,13 +116,15 @@ footer p {
 }
 
 .nav > .nav-header > .nav-title {
-  display: inline-block;
-  font-size: 30px;
+  /* display: inline-block; */
+  font-size: 50px;
   color: #fff;
+  padding: 10px 10px 10px 10px;
+  /* padding-bottom: 5rem; */
 }
 
 .nav > .nav-btn {
-  display: inline-block;
+  display: none;
 }
 
 .nav > .nav-links {
