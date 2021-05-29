@@ -88,10 +88,7 @@ button {
     width: 100%;
     min-height: 10vh;
     max-height: 20vh;
-    border: 1px solid #FF8412;
-    margin-bottom: 300px;
-    padding:20px;
-    /* background-color: #ffffff54; */
+    /* border: 1px solid var(--black); */
 }
 
 footer {
@@ -103,7 +100,6 @@ footer {
     text-align: center;
     color: #46157E;
     font-size:1.3rem;
-
 }
 
 footer p {
@@ -287,5 +283,5 @@ footer p {
 }
 
 .hero .hero-heading .heading-inverted {
-    color: #FF8412;
+    color: #;
 }

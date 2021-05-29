@@ -88,9 +88,9 @@ button {
     width: 100%;
     min-height: 10vh;
     max-height: 20vh;
-    border: 1px solid #FF8412;
-    margin-bottom: 300px;
-    padding:20px;
+    border: 1px solid var(--black);
+    margin: 2rem;
+    /* padding:5rem; */
     /* background-color: #ffffff54; */
 }
 
