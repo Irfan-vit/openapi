@@ -4,8 +4,8 @@
 
 ## Description
 
-1.with the help of open weather-map api we can type the name of location and make a api call and get the location of that given input location
-1.This app is similar to [banana translation](https://banana-bowrax.netlify.app/) which also makes api calls to translate the language
+- with the help of open weather-map api we can type the name of location and make a api call and get the location of that given input location
+- This app is similar to [banana translation](https://banana-bowrax.netlify.app/) which also makes api calls to translate the language
 
 
 ## Info
