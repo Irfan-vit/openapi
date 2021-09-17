@@ -1,11 +1,14 @@
 var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
 var outputDiv = document.querySelector('#output')
-var serverURL = "https://api.openweathermap.org/data/2.5/weather?q="
-var key = "&appid=49257f6591cfc3ed8daf0b5970d519cb"
+// var serverURL = "https://api.openweathermap.org/data/2.5/weather?q="
+// var key = "&appid=49257f6591cfc3ed8daf0b5970d519cb"
+
+var serverURL = "https://api.funtranslations.com/translate/yoda.json"
 
 function getTranslationURL(text) {
-    return serverURL + text + key
+    // return serverURL + text + key
+    return serverURL + "?" + "text=" + text
 }
 
 function errorHandler(error) {
@@ -38,7 +41,8 @@ function clickHandler() {
             return response.json();
         })
         .then(json => {
-            var translatedText = "Country : " + json['sys']['country'] + " | tempreature : " + json['main']['temp'] + " | weather : " +  json['weather'][0]['description'] + " | longitude : " + json['coord']['lon'] + " | latitude : " + json['coord']['lat'] + " | wind speed : " + json['wind']['speed'] + " | Wind direction, degrees : " + json['wind']['deg'];
+            // var translatedText = "Country : " + json['sys']['country'] + " | tempreature : " + json['main']['temp'] + " | weather : " +  json['weather'][0]['description'] + " | longitude : " + json['coord']['lon'] + " | latitude : " + json['coord']['lat'] + " | wind speed : " + json['wind']['speed'] + " | Wind direction, degrees : " + json['wind']['deg'];
+            var translatedText = json.contents.translated;
             outputDiv.innerText = translatedText.toUpperCase();
         })
         .catch((error) => {
