@@ -4,7 +4,7 @@
 
 ## Description
 
-- with the help of open weather-map api we can type the name of location and make a api call and get the location of that given input location
+- with the help of Yoda Fun Translations api we can input text in English and make a api call and get the translated Yoda version of given input english text
 - This app is similar to [banana translation](https://banana-bowrax.netlify.app/) which also makes api calls to translate the language
 
 
